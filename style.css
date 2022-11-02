@@ -100,6 +100,11 @@ img {
   display: block;
 }
 }
+@media screen and (min-width: 768px){
+.HeaderLogo:hover {
+  opacity: .8;
+}
+}
 
 .HeaderContainer>*:last-child {
   display: inline-flex;
@@ -231,6 +236,12 @@ ul, ol {
   height: 40px;
   padding: 0 20px;
 }
+@media screen and (min-width: 768px){
+.HeaderNavListItem__button:hover {
+  opacity: .8;
+}
+}
+
 
 
 
@@ -239,7 +250,7 @@ main {
   display: block;
 }
 .FirstView {
-  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 100px;
@@ -413,6 +424,13 @@ main {
   padding-top: 52px;
 }
 }
+@media screen and (min-width: 768px){
+.FirstViewContent__buttons a:hover {
+  opacity: .8;
+}
+}
+
+
 
 
 .AboutWrapper {
